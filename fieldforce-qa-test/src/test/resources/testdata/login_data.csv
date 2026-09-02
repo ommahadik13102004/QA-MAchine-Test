@@ -1,0 +1,5 @@
+email,password,expectedResult
+your_valid_email@example.com,your_valid_password,valid
+invalid_user@example.com,WrongPass123,invalid
+your_valid_email@example.com,WrongPassword,invalid
+notanemail,your_valid_password,invalid

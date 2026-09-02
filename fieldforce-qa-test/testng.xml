@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FieldForceConnect QA Suite" verbose="1">
+    <test name="Login and Feature Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.PunchInTest"/>
+            <class name="tests.AddCustomerTest"/>
+        </classes>
+    </test>
+</suite>
